@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Traveling</string>
+    <string name="hello_worldd">hello worldd</string>
+    <string name="pcc_syk">PCC SYK</string>
+    <string name="klik">KLIK</string>
+    <string name="menu_traveling">Menu Traveling</string>
+    <string name="kuliner">Kuliner</string>
+    <string name="penginapan">Penginapan</string>
+    <string name="souvenir">Souvenir</string>
+    <string name="destination">Destination</string>
+    <string name="deskripsi">Traveling ke Semarang jadi makin murah. Karena, kamu nggak hanya bisa menggunakan jasa pesawat, tapi juga jasa kereta api. Selain harganya lebih murah, kini naik kereta api juga makin nyaman karena fasilitasnya makin memadai. Jika kamu transit di Stasiun Tawang (jalan Taman Tawang No. 1), carilah tempat menginap yang dekat dengan stasiun tersebut supaya kamu bisa langsung istirahat begitu sampai. Kamu bisa menginap di salah satu dari 10 hotel yang pegipegi rekomendasikan berikut ini. Fasilitasnya lengkap dan harganya terjangkau, yaitu mulai dari Rp 100 ribuan.</string>
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/menu_traveling"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/hotel"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="70dp"
+            android:src="@drawable/hotel" />
+
+        <TextView
+            android:id="@+id/txthotel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hotel"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="95dp"
+            android:text="@string/penginapan" />
+
+        <ImageView
+            android:id="@+id/kuliner"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_toEndOf="@id/hotel"
+            android:src="@drawable/kuliner" />
+
+        <TextView
+            android:id="@+id/txtkuiner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kuliner"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/txthotel"
+            android:text="@string/kuliner" />
+
+
+        <ImageView
+            android:id="@+id/souvenir"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/txthotel"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="70dp"
+            android:src="@drawable/souvenir" />
+
+        <TextView
+            android:id="@+id/txtsouvenir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/souvenir"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="100dp"
+            android:text="@string/souvenir" />
+
+        <ImageView
+            android:id="@+id/destination"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/txtkuiner"
+            android:layout_marginTop="30dp"
+            android:layout_toEndOf="@id/souvenir"
+            android:src="@drawable/destination" />
+
+        <TextView
+            android:id="@+id/txtdes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/destination"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/txtsouvenir"
+            android:text="@string/destination" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center"
+        android:text="created by.kolina" />
+
+</LinearLayout>
